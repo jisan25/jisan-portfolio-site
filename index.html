@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shihabun Mobin Jisan Portfolio - 2023</title>
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/43c7407cd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/my-logo.png" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span>Full Stack Web Developer</span></p>
+          <h1>Hi, I'm <span>Shihabun</span> <br /> <span class="heading-line-2">Jisan From Bangladesh</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Shiabun_jisan.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p  class="about__lead">
+              I am a junior Full Stack Laravel web developer with over 2 years
+              of experience, specializing in Laravel, React, PHP OOP, PHP MVC,
+              MySQL, and JavaScript. My skills extend beyond coding; I possess
+              strong communication skills in English and have proficiency in web
+              design. My creative mindset and patience drive my work, while my
+              ability to handle challenges and thrive in high-pressure
+              situations underscores my dedication and honesty. Beyond coding, I
+              am an avid reader, a lifelong learner, and a passionate traveler.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('projects')">
+                My Projects
+              </p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="projects">
+              <ul>
+                <li>
+                  <span
+                    ><a
+                      target="_blank"
+                      href="https://github.com/jisan25/Complete-School-Management-System---laravel"
+                      >Laravel Complete School Management System
+                      <i class="fa-solid fa-link"></i></a></span
+                  ><br />Including Result, Payment, Report, PDF System & More
+                </li>
+                <li>
+                  <span
+                    ><a
+                      target="_blank"
+                      href="https://github.com/jisan25/single-page-application-blog-vue-js"
+                      >Single Page Blog Application Vue JS  <i class="fa-solid fa-link"></i></a></span</a
+                    ></span
+                  ><br />Including Routing, Filter, Search, Pagination, Firebase
+                  & More
+                </li>
+                <li>
+                  <span>Question & Answer Site (Laravel & Vue JS) </span
+                  ><br />Current Project (Full Stack single page application)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li>
+                  <span>Laravel ( 5+ projects ) </span><br />Routing, Middleware, Blade, Session, Artisan, Authentication, Pagination & More
+                </li>
+                <li><span>React ( 5+ proejcts )</span><br />LifeCycle Hooks, Redux Toolkit, Infinite Scrooll, Filter, Progress Bar, Api & More</li>
+                <li>
+                  <span>PHP OOP( 2 years )</span><br />Completed PHP MVC 1 project, & 4+ php projects
+                </li>
+                <li>
+                  <span>JavaScript ( 1 year )</span><br />Finished 20+ Javascript Project, Hands on Knowledge on Node Js, Express, Mongo Db & More
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Diploma in Computer Engineering ( 3.76 out of 4.00)
+                </li>
+                <li><span>2023</span><br />IELTS Course (ongoing)</li>
+                <li><span>2018</span><br />Bangla Pronunciation Course</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------ services ---------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I possess extensive experience in web development, specializing in the creation of intermediate-level websites using the Laravel PHP framework. With a robust track record dating back to 2016, I offer a wealth of expertise to deliver exceptional service tailored to your unique requirements.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>
+              My primary expertise lies in web development. I excel at crafting websites tailored to your specific needs. Even if you don't have a design ready, rest assured   that I can create a custom website from the ground up, aligning it seamlessly with your unique requirements."
+            </p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <!-- -------------portfolio----------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Darucini-Portfolio.jpg"  />
+            <div class="layer">
+              <h3>Darucini Restaurant</h3>
+              <p>
+                A restaurant project featuring a fullscreen overlay navbar, a filtering system, a single-page application, responsive design, a scroll-to-top button, and more.
+              </p>
+              <a target="_blank" href="https://darucini264.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/nimbo-portfolio.jpg"  />
+            <div class="layer">
+              <h3>Nimbo React Project</h3>
+              <p>
+                This project includes infinite scroll, filtering system, axios api, routing & more.
+              </p>
+              <a target="_blank" href="https://nimbo264.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/somoy-portfolio-v3.jpg" />
+            <div class="layer">
+              <h3>Somoy Tailwind CSS & JS Project</h3>
+              <p>
+                This single-page application showcases my proficiency in Tailwind CSS, emphasizing a minimalistic design approach.
+              </p>
+              <a target="_blank" href="https://somoy264.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a target="_blank" href="https://github.com/jisan25" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ------------ contact --------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> shihabunjisan@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 01846-430271</p>
+            <div class="social-icons">
+              <a target="_blank" href="https://github.com/jisan25"><i class="fa-brands fa-github"></i></a>
+              <a target="_blank" href="https://www.facebook.com/shihabunjisan/"><i class="fab fa-facebook"></i></a>
+              
+            </div>
+            <a href="images/Ful- Stack-Web-Developer-Resume-2023.pdf" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span>Shiabun Mobin Jisan</span>  All Rights Reserved 2023
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Switch Tabs
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+      // Mobile Navbar
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyTvTgAv0-x7No_mbkOZk_zOhvDlPxXbt41R2AcrjtcOUTT_qOTVRizTtc1M5c4XKYdzw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => (msg.innerHTML = "Message sent successfully"))
+          .then((res) => form.reset())
+          .then((res) =>
+            setTimeout(() => {
+              msg.innerHTML = "";
+            }, 3500)
+          )
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
